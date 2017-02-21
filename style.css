@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body{
-  background-image: url(./media/background.png)
+  background-image: url(./media/grid_background.png)
 }
 
 h1{
@@ -9,22 +9,18 @@ h1{
 }
 
 img{
-  display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
-/*.centerImage{
-  display: block;
-  margin-left: auto;
-  margin-right: auto
-  width: 50%
-}*/
+.rounded_image_centered{
+  border-radius: 50%;
+}
 
 .centerMe{
   margin-left: auto;
   margin-right: auto;
-  width: 10em
+  width: 20em
 }
 
 
@@ -34,6 +30,7 @@ img{
   width: 15em
 }
 
-.lineOfImages{
-   display: inline;
+.block{
+  display: block;
+
 }
